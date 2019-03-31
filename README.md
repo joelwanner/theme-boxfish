@@ -9,35 +9,32 @@
 
 <br/>
 
-
 ## Install
 
 ```fish
 $ omf install boxfish
 ```
 
-
 ## Features
 
-* Lorem ipsum dolor sit amet.
-* Consectetur adipisicing elit.
-
+* Minimalist ASCII-only prompt
+* The most compact vi mode support possible (only 1 character!)
+* Error indicator on return code != 0
 
 ## Screenshot
 
 <p align="center">
-<img src="{{SCREENSHOT_URL}}">
+<img src="screenshot.png">
 </p>
-
 
 # License
 
-[MIT][mit] © [{{USER}}][author] et [al][contributors]
+[MIT][mit] © [joelwanner][author] et [al][contributors]
 
 
 [mit]:            https://opensource.org/licenses/MIT
-[author]:         https://github.com/{{USER}}
-[contributors]:   https://github.com/{{USER}}/theme-boxfish/graphs/contributors
+[author]:         https://github.com/joelwanner
+[contributors]:   https://github.com/joelwanner/theme-boxfish/graphs/contributors
 [omf-link]:       https://www.github.com/oh-my-fish/oh-my-fish
 
 [license-badge]:  https://img.shields.io/badge/license-MIT-007EC7.svg?style=flat-square
