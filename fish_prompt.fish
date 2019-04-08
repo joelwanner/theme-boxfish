@@ -14,8 +14,9 @@ function fish_prompt
 
     # Show git branch and dirty state
     set -l git_branch (command git symbolic-ref HEAD 2> /dev/null | sed -e 's|^refs/heads/||')
-    if [ $git_branch ]
-        if [ (command git status -s --ignore-submodules=dirty 2> /dev/null) ]
+    set -l git_dirty (command git status -s --ignore-submodules=dirty 2> /dev/null)
+    if test -n "$git_branch"
+        if test -n "$git_dirty"
             set_color black -b yellow
             echo -n " $git_branch "
         else
