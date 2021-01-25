@@ -24,7 +24,7 @@ $ omf install boxfish
 ## Screenshot
 
 <p align="center">
-<img src="screenshot.png">
+<img src="https://raw.githubusercontent.com/joelwanner/theme-boxfish/master/screenshot.png">
 </p>
 
 # License
